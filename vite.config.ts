@@ -7,5 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: './', // This ensures assets are loaded correctly when deployed
+  base: '/ptsite/', // Base URL for GitHub Pages
 });
