@@ -7,5 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: '/ptsite/', // Base URL for GitHub Pages
+  base: process.env.NODE_ENV === 'production' ? '/ptsite/' : '/',
 });
